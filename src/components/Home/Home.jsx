@@ -10,13 +10,12 @@ const Home = (props) => {
         <ul>
           <li>This checkup is not a diagnosis.</li>
           <li>This checkup is for informational purposes and is not a qualified medical opinion.</li>
-          <li>Information that you provide is anonymous and not shared with anyone. We also do not store any information on our server.</li>
         </ul>
         <form class="usa-form TermsCheckbox">
           <div class="usa-checkbox">
             <input checked={props.isChecked} onChange={props.checked} class="usa-checkbox__input" id="truth" type="checkbox" name="historical-figures-1" value="truth" />
             <label class="usa-checkbox__label" for="truth">
-              I agree to the DHILab terms and conditions
+              I agree to Jijue Symptoms Checker terms and conditions
             </label>
           </div>
         </form>

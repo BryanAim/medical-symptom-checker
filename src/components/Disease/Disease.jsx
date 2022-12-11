@@ -65,7 +65,8 @@ class Disease extends Component {
             </div>
           ))}
         </div>
-        <div>Always visit a doctor if you have any symptoms of a disease or call your local hospital</div>
+        <div>
+          <h2>Always visit a doctor if you have any symptoms of a disease or call your local hospital</h2></div>
       </div>
     ) : (
       <React.Fragment>
